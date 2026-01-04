@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Co-op Work Term Report — Elliott Rahming</title>
+	<meta name="description" content="Co-op work term report website built with Bootstrap." />
+
+  <!-- Bootstrap 5 (CDN) -->
+  	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- Styles -->
+    <style>
+		:root { scroll-behavior: smooth; }
+		.hero {
+		background: linear-gradient(120deg, rgba(13,110,253,.12), rgba(25,135,84,.12));
+		border-bottom: 1px solid rgba(0,0,0,.08);
+		}
+		.section { scroll-margin-top: 90px; }
+		.badge-skill { margin: .15rem; }
+		img { object-fit: cover; height: 220px; border-radius: .5rem; }
+		img:hover { transform: scale(1.03); transition: transform .3s ease; }
+		footer { border-top: 1px solid rgba(0,0,0,.08); }
+	</style>
+</head>
+
+<body>
+  <!-- Navbar -->
+	<nav class="navbar navbar-expand-lg bg-white sticky-top border-bottom">
+		<div class="container">
+		<a class="navbar-brand fw-semibold" href="#top">Co-op Report</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="nav">
+			<ul class="navbar-nav ms-auto">
+			<li class="nav-item"><a class="nav-link" href="#intro">Intro</a></li>
+			<li class="nav-item"><a class="nav-link" href="#employer">Employer</a></li>
+			<li class="nav-item"><a class="nav-link" href="#goals">Goals</a></li>
+			<li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
+			<li class="nav-item"><a class="nav-link" href="#results">Results</a></li>
+			<li class="nav-item"><a class="nav-link" href="#conclusion">Conclusion</a></li>
+			<li class="nav-item"><a class="nav-link" href="#ack">Acknowledgments</a></li>
+			</ul>
+		</div>
+		</div>
+	</nav>
+
+	<!-- Hero -->
+	<header id="top" class="hero py-5">
+		<div class="container py-3">
+		<div class="row align-items-center g-4">
+			<div class="col-lg-8">
+			<h1 class="display-6 fw-bold mb-2">Co-op Work Term Report</h1>
+			<p class="lead mb-3">
+				<strong>Elliott Rahming</strong> · Bachelor of Computing (Software Engineering Co-op), University of Guelph
+			</p>
+			<p class="text-secondary mb-4">
+				Term: <span class="fw-semibold">Sep 2025 - Dec 2025</span> · Employer: <span class="fw-semibold">City of Guelph — IT Service Desk Support (Co-op)</span>
+			</p>
+			<div class="d-flex flex-wrap">
+				<span class="badge text-bg-primary badge-skill">Troubleshooting</span>
+				<span class="badge text-bg-primary badge-skill">Documentation</span>
+				<span class="badge text-bg-primary badge-skill">Customer Support</span>
+				<span class="badge text-bg-primary badge-skill">Service Desk</span>
+				<span class="badge text-bg-primary badge-skill">Enterprise Tools</span>
+			</div>
+			</div>
+
+			<div class="col-lg-4">
+			<div class="card shadow-sm">
+				<img src="images/pacman.jpeg" class="card-img-top" alt="IT Service Desk team dressed up as ghosts from pacman" style="height: 300px;"/>
+			</div>
+			</div>
+		</div>
+		</div>
+	</header>
+
+	<main class="container my-5">
+		<!-- Intro -->
+		<section id="intro" class="section mb-5">
+		<h2 class="h3 fw-bold">Introduction</h2>
+		<p class="text-secondary">
+			In this work term, I supported end users across multiple departments by troubleshooting hardware and software issues,
+			documenting incidents, and improving support workflows. This report summarizes what I worked on, what I learned, and how
+			the experience strengthened my communication, problem-solving, and technical proficiency in an enterprise IT environment.
+		</p>
+		</section>
+
+		<!-- Employer -->
+		<section id="employer" class="section mb-5">
+		<h2 class="h3 fw-bold">About the Employer</h2>
+
+		<div class="row g-4">
+			<div class="col-lg-7">
+			<p class="text-secondary">
+				During Fall 2025, I completed my work term with the City of Guelph in an IT Service Desk Support role. The City supports a wide range of internal departments and relies on stable IT systems to
+				keep day-to-day operations running smoothly. The service desk serves as a front line for issue intake,
+				troubleshooting, and escalation when necessary.
+			</p>
+
+			<p class="text-secondary mb-0">
+				This environment relates directly to computing through real-world incident management, troubleshooting,
+				identity and access workflows, and documentation practices. It also provided experience working with
+				enterprise tools and processes, where clarity, repeatability, and good communication directly affect user
+				experience and operational efficiency.
+			</p>
+			</div>
+
+			<div class="col-lg-5">
+			<div class="card shadow-sm">
+				<img src="images/city_hall.jpg" class="card-img-top img-card" alt="Original photo or graphic related to the employer" style="width: auto; height: fit-content;" />
+			</div>
+			</div>
+		</div>
+		</section>
+
+		<!-- Goals -->
+		<section id="goals" class="section mb-5">
+		<h2 class="h3 fw-bold">Goals / Learning Outcomes</h2>
+		<p class="text-secondary">
+			The following learning goals guided my work term and were evaluated through day-to-day performance,
+			feedback, and my ability to work independently while maintaining high-quality support.
+		</p>
+
+		<div class="row g-4">
+			<!-- Goal 1 -->
+			<div class="col-lg-6">
+			<div class="card h-100 shadow-sm">
+				<div class="card-body">
+				<h3 class="h5 fw-semibold">Goal 1 — Communication (Oral Communication)</h3>
+					<p class="text-secondary mb-2">
+						Strengthen my ability to communicate clearly and professionally with both technical and non-technical staff,
+						ensuring information is conveyed accurately in conversations, meetings, and interactions.
+					</p>
+
+				<h4 class="h6 fw-semibold mb-1">Action Plan</h4>
+				<ul class="text-secondary">
+					<li>Use clear and professional language when interacting with users and team members</li>
+					<li>Follow up consistently and ask clarifying questions when needed</li>
+				</ul>
+
+				<h4 class="h6 fw-semibold mb-1">Measure of Success</h4>
+				<p class="text-secondary">
+					Receive positive feedback from supervisors/users/colleagues and demonstrate the ability to explain technical
+					concepts in a way non-technical staff can understand.
+				</p>
+
+				<h4 class="h6 fw-semibold mb-1">Reflection</h4>
+				<p class="text-secondary mb-0">
+					I made a conscious effort to use understandable language and keep explanations concise, especially when speaking
+					with users who did not have technical backgrounds. When issues were highly technical, I focused on giving a clear
+					high-level overview. A key area for improvement is organizing my thoughts more effectively so my explanations are
+					less fragmented and sound more professional and articulate.
+				</p>
+				</div>
+			</div>
+			</div>
+
+			<!-- Goal 2 -->
+			<div class="col-lg-6">
+			<div class="card h-100 shadow-sm">
+				<div class="card-body">
+				<h3 class="h5 fw-semibold">Goal 2 — Critical & Creative Thinking (Problem Solving)</h3>
+				<p class="text-secondary mb-2">
+					Develop stronger analytical and troubleshooting skills by applying structured approaches to resolving technical
+					issues, identifying root causes, and implementing effective solutions.
+				</p>
+
+				<h4 class="h6 fw-semibold mb-1">Action Plan</h4>
+				<ul class="text-secondary">
+					<li>Take ownership of troubleshooting tickets and apply diagnostic steps</li>
+					<li>Collaborate with colleagues when challenges arise and document solutions for reuse</li>
+				</ul>
+
+				<h4 class="h6 fw-semibold mb-1">Measure of Success</h4>
+				<p class="text-secondary">
+					Independently resolve approximately 2-3 incidents/service requests per day and successfully escalate or document
+					complex issues with clear resolution details.
+				</p>
+
+				<h4 class="h6 fw-semibold mb-1">Reflection</h4>
+				<p class="text-secondary mb-0">
+					Over the term, I became significantly more independent in diagnosing issues and gained a stronger understanding of
+					the technologies used at the City of Guelph. I improved my ability to handle calls and in-person support confidently.
+					While I sometimes made incorrect initial decisions or misinterpreted issues, I worked to correct them quickly once
+					identified. I can improve by reducing resolution time and reaching out for help earlier when appropriate. I consistently
+					documented resolution details for less-common problems to support future troubleshooting.
+				</p>
+				</div>
+			</div>
+			</div>
+
+			<!-- Goal 3 -->
+			<div class="col-lg-12">
+			<div class="card h-100 shadow-sm">
+				<div class="card-body">
+				<h3 class="h5 fw-semibold">Goal 3 — Technological Literacy</h3>
+				<p class="text-secondary mb-2">
+					Expand my knowledge and proficiency with the City of Guelph's IT systems, tools, and platforms, and apply this
+					understanding to perform tasks efficiently and independently.
+				</p>
+
+				<div class="row g-3">
+					<div class="col-lg-4">
+					<h4 class="h6 fw-semibold mb-1">Action Plan</h4>
+					<ul class="text-secondary mb-0">
+						<li>Build proficiency with tools such as Cherwell, SharePoint, Active Directory, VPN, and related systems</li>
+						<li>Learn by shadowing colleagues and practicing standard tasks</li>
+					</ul>
+					</div>
+					<div class="col-lg-4">
+					<h4 class="h6 fw-semibold mb-1">Measure of Success</h4>
+					<ul class="text-secondary mb-0">
+						<li>Use core applications independently</li>
+						<li>Complete tasks like login resets, permissions changes, and troubleshooting with minimal supervision</li>
+					</ul>
+					</div>
+					<div class="col-lg-4">
+					<h4 class="h6 fw-semibold mb-1">Reflection</h4>
+					<p class="text-secondary mb-0">
+						I gained substantial experience with corporate IT systems and developed a stronger understanding of what happens
+						behind the scenes in tools that are often abstracted for end users. This came from solving issues across multiple
+						teams (e.g., network, server, asset control). While there are still tools/features I am not fully familiar with, I
+						made an effort to learn the correct steps as incidents arose. I can complete most tasks I have permissions for
+						without supervision, but I sometimes needed more clarity when expectations required inference. When I made
+						mistakes, I focused on learning from them and avoiding repeats.
+					</p>
+					</div>
+				</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		</section>
+
+		<!-- Work -->
+		<section id="work" class="section mb-5">
+		<h2 class="h3 fw-bold">Job Description / What I Worked On</h2>
+		<p class="text-secondary">
+			My role focused on helping staff resolve technical issues efficiently while ensuring the work was documented clearly
+			for future reference. I worked with a mix of self-directed tasks, tickets, and direct user interactions (phone/in-person).
+		</p>
+
+		<div class="row g-4">
+			<div class="col-lg-4">
+			<div class="card h-100 shadow-sm">
+				<div class="card-body">
+				<h3 class="h5 fw-semibold">Incident & Service Request Handling</h3>
+				<ul class="text-secondary mb-0">
+					<li>Owned tickets end-to-end when possible: intake, diagnosis, resolution, and follow-up</li>
+					<li>Escalated complex issues with clear notes when required</li>
+					<li>Documented resolution details, especially for less-common problems</li>
+				</ul>
+				</div>
+			</div>
+			</div>
+
+			<div class="col-lg-4">
+			<div class="card h-100 shadow-sm">
+				<div class="card-body">
+				<h3 class="h5 fw-semibold">User Support & Communication</h3>
+				<ul class="text-secondary mb-0">
+					<li>Explained technical issues in understandable language for non-technical users</li>
+					<li>Asked clarifying questions and provided concise, actionable instructions</li>
+					<li>Improved professionalism and clarity in live support interactions</li>
+				</ul>
+				</div>
+			</div>
+			</div>
+
+			<div class="col-lg-4">
+			<div class="card h-100 shadow-sm">
+				<div class="card-body">
+				<h3 class="h5 fw-semibold">Enterprise Tools & Workflows</h3>
+				<ul class="text-secondary mb-0">
+					<li>Built proficiency with tools such as Cherwell, SharePoint, Active Directory, and VPN workflows</li>
+					<li>Completed standard tasks like login resets and permission changes (based on access)</li>
+					<li>Learned by shadowing colleagues and applying steps independently as new issues appeared</li>
+				</ul>
+				</div>
+			</div>
+			</div>
+		</div>
+
+		<p class="text-secondary mt-4 mb-0">
+			This role strengthened practical problem-solving and reinforced the value of repeatable processes, accurate documentation,
+			and clear communication — especially when supporting time-sensitive operations.
+		</p>
+		</section>
+
+		<!-- Results -->
+		<section id="results" class="section mb-5">
+		<h2 class="h3 fw-bold">Results, Testing Mindset, and Problem Solving</h2>
+		<p class="text-secondary">
+			My key outcomes were improved independence, clearer documentation, and stronger troubleshooting habits.
+			I also identified specific areas to improve next term: faster resolution time and reaching out earlier when appropriate.
+		</p>
+
+		<div class="card shadow-sm">
+			<div class="card-body">
+			<ul class="text-secondary mb-0">
+				<li>
+				<strong>More independent troubleshooting:</strong> I became more comfortable diagnosing issues on my own and
+				handling service desk interactions with confidence.
+				</li>
+				<li>
+				<strong>Better documentation quality:</strong> I consistently documented resolution details so that solutions could
+				be reused by others in the future.
+				</li>
+				<li>
+				<strong>Clearer communication:</strong> I focused on concise explanations for non-technical users and identified a
+				personal improvement area: organizing my thoughts to sound more articulate and professional.
+				</li>
+			</ul>
+			</div>
+		</div>
+		</section>
+
+		<!-- Conclusion -->
+		<section id="conclusion" class="section mb-5">
+		<h2 class="h3 fw-bold">Conclusion</h2>
+		<p class="text-secondary">
+			This work term strengthened three core areas that will carry into future co-op roles: clear technical communication,
+			structured troubleshooting, and practical proficiency with enterprise IT tools and workflows. I learned how important
+			documentation and consistency are in a real support environment, and I gained confidence handling issues independently.
+			Moving forward, my main improvement targets are reducing resolution time and communicating complex ideas more smoothly
+			by organizing my thoughts more effectively.
+		</p>
+		</section>
+
+		<!-- Acknowledgments -->
+		<section id="ack" class="section mb-5">
+		<h2 class="h3 fw-bold">Acknowledgments</h2>
+		<p class="text-secondary mb-0">
+			I would like to thank my supervisor and the IT Service Desk team at the City of Guelph for their support, guidance,
+			and willingness to answer questions as I learned new systems and processes. I also appreciate the colleagues across
+			related teams who helped with escalations and provided context that improved my understanding of how enterprise IT
+			operations work behind the scenes.
+		</p>
+		</section>
+	</main>
+
+	<footer class="py-4 bg-white">
+		<div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+		<div class="text-secondary small">
+			© <span id="year"></span> Elliott Rahming · Co-op Work Term Report
+		</div>
+		<div class="small">
+			<a class="text-decoration-none" href="#top">Back to top</a>
+		</div>
+		</div>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+	<script>
+		document.getElementById("year").textContent = new Date().getFullYear();
+	</script>
+	</body>
+	</html>
